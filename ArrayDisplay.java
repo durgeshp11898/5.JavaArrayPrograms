@@ -1,0 +1,23 @@
+class ArrDisplay
+{
+	public static void main(String args[])
+	{
+		int a[]=new int[6];
+		a[0]=10;
+		a[1]=20;
+		a[2]=30;
+		a[3]=40;
+		a[4]=50;
+		a[5]=60;
+		
+		int i=0;
+
+		for(i=0;i<a.length/2;i++)
+		{
+		
+				System.out.print(a[i]+"    "+a[a.length-i-1]);
+				System.out.println();
+		}
+	}
+}
+		
